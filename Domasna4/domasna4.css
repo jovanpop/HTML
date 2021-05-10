@@ -1,0 +1,17 @@
+.title{
+			color: red;
+		}
+
+		#naslov{
+			color: color: rgb(78,86,9);
+			background: rgba(219,211,48,0.5);
+		}
+		h5{
+			color: green;
+		}
+.forma{
+	background-color: #03a5fc;
+}
+body{
+	background: url(https://lh3.googleusercontent.com/proxy/KUgx8X1ujf_CYWR1FBlApbB9xKU2fWTZTplmThbv-QAjStVAJCzYKoShvITzDn6akodKia1zReUTaCqfeNF4juOR0AjgOF1_yo0UiQH7s42wHV_LKA); 
+}
