@@ -1,0 +1,328 @@
+body{
+	background-image: url(esport.jpg);
+    font-family: 'Whyte Inktrap',sans-serif;
+    margin-left: 60px;
+    background-size: cover;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.opacity {
+	position: fixed;
+	height: 200%;
+	width: 200%;
+	opacity: 0.9;
+	z-index: -1;
+	background-color:#0f0f0f;
+	margin: -100px;
+}
+@keyframes boja1{
+	from{background-color: black;}
+	to {background-color: red;}
+}
+@keyframes boja2{
+	from{background-color: black;}
+	to{background-color: rgb(221, 96, 5);}
+}
+@keyframes boja3{
+	from{background-color: black;}
+	to{background-color:rgb(255, 179, 35);}
+}
+@keyframes boja4{
+	from{background-color: black;}
+	to{background-color: rgb(0,160,0)}
+}
+@keyframes boja5{
+	from{background-color: black;}
+	to{background-color: rgb(40, 146, 255)}
+}
+.menu_item {
+  width: 22em;
+  height: 4em;
+  background: #0f0f0f;
+  transition: height 700ms;
+  position: fixed;
+  bottom: 0px;
+  left: 110px;
+  border: 1px solid lightgray;
+  padding: 12px;
+  border-bottom: none;
+  padding-left: 1em;
+  font-size: 1em;
+}
+.menu_item:hover {
+  height: 15em;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  border: 2px solid black;
+}
+.first:hover {
+	animation-name: boja1;
+}
+.second{
+	left: 24.5em;
+	z-index: 1;
+}
+.second:hover{
+	animation-name: boja2;
+}
+.third{
+	left: 41.5em;
+	z-index: 1;
+}
+.third:hover {
+	animation-name: boja3;
+}
+.fifth .img{
+	width: 26%;
+}
+.fourth {
+	left: 59.5em;
+	z-index: 1;
+}
+.fourth:hover {
+	animation-name: boja4;
+	z-index: 1;
+}
+.fifth{
+	left:78em;
+	z-index: 1;
+	width: 31.5em;
+}
+.fifth:hover {
+	animation-name: boja5;
+}
+.img img{
+	height: 100%;
+	width: 100%;
+}
+.img{
+	text-align: center;
+    display: none;
+    float: left;
+    padding: 15px;
+    height: auto;
+    width: 40%;
+    padding-top: 5px;
+}
+.menu_item:hover .img{
+	display: block;
+}
+.first section:last-child {
+	margin-top: 8px;
+}
+.fourth section:last-child {
+	margin-top: 13px;
+}
+.tm {
+	color: gray;
+	position: absolute;
+	font-size: 10px;
+	right: 10px;
+	top: 0px;
+}
+.logo{
+	width: 85px;
+	height: 85px;
+	margin: auto;
+	padding-top: 10px;
+}
+.logo img{
+	height:100%;
+	width: 100%;
+	border-radius: 51%;
+	border: 2px solid black;
+}
+.middle {
+	font-size: 8.4em;
+	color: lightgray;
+	text-shadow: 0 0 5px white;
+	z-index: -1;
+	position: absolute;
+	margin: auto;
+	top: 25%;
+}
+.middle section{
+	transform: scaleY(1.2);
+	margin-top: -25px;
+}
+.middle span{
+	position: absolute;
+	left: -300px;
+	bottom: 0.5em;
+	text-shadow: none;
+	opacity: 1:;
+}
+.mr{
+	float: right;
+}
+.middle a{
+	font-size: 0.2em;
+	opacity: 1;
+	color: lightgray;
+}
+a{
+	color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+.es{
+	color: darkgray;
+	display: flex;
+	flex-direction: column;
+	width: 13%;
+	transition: width 1.5s, height 1.5s;
+	position: absolute;
+	height:85px;
+	top: 25px;
+	border: 1px solid lightgray;
+	padding-left: 17px;
+	padding-right: 15px;
+	margin-top: 5px;
+}
+.text{
+	color: lightgray;
+	display: none;
+	padding-right: 400px;
+	font-size: 17px;
+	padding-left: 32px;
+	padding-top: 20px;
+}
+.name{
+	font-size: 45px;
+	color:lightgray;
+	text-align: left;
+	margin-top: -40px;
+}
+.es:hover {
+	width: 91.5%;
+	height: 400%;
+	background-color: #0f0f0f;
+	border: none;
+}
+.es:hover .text{
+	display: block;
+}
+.es:hover .name{
+     display: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.menu_item:hover a{
+	color: black;
+}
+.es:hover .info{
+	display: block;
+}
+.infoheader{
+    color: rgb(100,220,250); 
+    font-size: 30px;
+	text-align: left;
+	margin-top: 12px;
+	border-bottom: 1px solid lightgray;
+    border-radius: 3%;
+}
+.es:hover .photos{
+	position: absolute;
+	right: 28px;
+	display: flex;
+	flex-direction: column;
+	top: 75px;
+}
+.photos{
+	display: none;
+}
+.es:hover .image {
+	padding: 10px;
+	height: 160px;
+	width: 300px;
+	padding-right: 25px;
+}
+.es:hover .image img{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+.image img{
+	display: none;
+}
+h4{
+	font-size: 20px;
+	color: white;
+}
+p{
+	color: white;
+	font-size: 20px;
+    margin-left: 101px;
+    margin-top: -30px;
+}
+.es:hover p{
+	display: none;
+}
+.es i{
+	font-size: 85px;
+	padding-top: 20px;
+	margin-top: 10px;
+	transform: scale(1,1.15);
+}
+.name sup{
+	font-size: 31px;
+}
+.side{
+	position: absolute;
+	right: 150px;
+	top: 65px;
+	font-size: 28px;
+	word-spacing: -8px;
+	color: lightgray;
+}
+.form{
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid lightgray;
+	width: 245px;
+	padding: 10px;
+	position: absolute;
+	top:32px;
+	display: none;
+	height: 205px;
+	padding-top: 30px;
+	word-spacing: normal;
+	right: 0px;
+}
+.signin:hover form a{
+	border:none;
+}
+.signin section a:hover{
+ text-decoration: underline;
+}
+.signin:hover .form{
+	display: block;
+}
+.form:hover {
+	display: block;
+}
+.signin:hover a{
+	text-decoration: none;
+	border:1px solid lightgray;
+	border-bottom: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+button a{
+	color: black;
+	text-decoration: none;
+}
+.pointer{
+	position: absolute;
+	bottom: 135px;
+	left:130px;
+	opacity: 0.2;
+	transform: rotate(90deg);
+	z-index: -1;
+}
+.pointer img{
+	height:auto;
+	width: 140px;
+	border-radius: 40%;
+}
